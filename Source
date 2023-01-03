@@ -965,6 +965,7 @@ do
 				--
 				window.fading = false
 			end
+		end
 		--
 		utility:Connection(uis.InputBegan,function(Input)
 			for _, func in pairs(library.began) do
